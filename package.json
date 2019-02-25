@@ -1,0 +1,24 @@
+{
+  "name": "bamazon-node-cli-app",
+  "version": "1.0.0",
+  "description": "Amazon like storefront CLI App utilizing MySQL for the database and we use Node.js to build the app.",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joseluissaboya/bamazon-node-cli-app.git"
+  },
+  "author": "Jose L Saboya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joseluissaboya/bamazon-node-cli-app/issues"
+  },
+  "homepage": "https://github.com/joseluissaboya/bamazon-node-cli-app#readme",
+  "dependencies": {
+    "cli-table": "^0.3.1",
+    "inquirer": "^6.2.2",
+    "mysql": "^2.16.0"
+  }
+}
